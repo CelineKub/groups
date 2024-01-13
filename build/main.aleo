@@ -1,4 +1,4 @@
-program groups.aleo;
+program!groups.aleo;
 
 
 
@@ -10,3 +10,4 @@ function main:
     add r3 r2 into r4;
     add r4 group::GEN into r5;
     output r5 as group.private;
+ 
